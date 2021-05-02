@@ -1,0 +1,91 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #333;
+}
+body{
+    color: white;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grid{
+    background-color:#333;
+}
+.container-1{
+    display: flex;
+   align-content: flex-start;
+   border: 1px #ccc solid;
+   padding: 10px;
+}
+.dane-kontakt{
+    font-size: large;
+}
+
+.hamburger div{
+    width: 35px;
+    height: 4px;
+    background-color: white;
+    margin: 6px 0;
+    border-radius: 20%;
+}
+.hamburger p{
+    text-align: left;  
+}
+.link{
+    color:lightblue;
+}
+
+.box-1{
+    flex: 88%;
+    order: 2;
+    border: 1px;
+    padding: 10px;
+}
+.img{
+    flex: 12%;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    
+}
+.container-2{
+    display: flex;
+    justify-content: center;
+}
+.progress-bar{
+    flex: 30%;
+    order: 1;
+    border: 1px #ccc solid;
+    padding: 10px;
+    justify-content: center;
+}
+.edu{
+    flex:70%;
+    order: 2;
+    border: 1px #ccc solid;
+    padding: 10px;
+}
+.contact-form{
+    display: flex;
+}
+.container-3 .form-group{
+    padding-bottom: 15px;
+    flex: 30%;
+}
+.container-3 label{
+    display: block;
+}
+.container-4{
+    
+    padding-left: 30px;
+}
+.container-4 box-summit{
+    justify-content: center;
+}
+
+.box-4 p{
+    font-size: larger;
+}
+.progress-bar video{
+    align-items: center;
+}
